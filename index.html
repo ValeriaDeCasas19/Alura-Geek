@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>❤️❤️❤️ AluraGeek</h1>
+    </header>
+    <main>
+        <section class="product-section">
+            <h2>MIS PRODUCTOS:</h2>
+            <ul class="product-grid" data-lista>
+                <!-- Existing product items will go here -->
+            </ul>
+        </section>
+        <section class="add-product-section">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form data-formulario>
+                <input type="text" name="name" placeholder="nombre..." data-nombre>
+                <input type="text" name="price" placeholder="precio..." data-precio>
+                <input type="text" name="image" placeholder="imagen..." data-imagen>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>❤️❤️❤️ AluraGeek</p>
+        <p>DESARROLLADO POR VALERIA DE CASAS</p>
+        <p>ALURA LATAM</p>
+    </footer>
+    <script type="module" src="./js/conectaAPI.js"></script>
+    <script type="module" src="./js/mostrarProd.js"></script>
+    <script type="module" src="./js/crearProd.js"></script>
+</body>
+</html>

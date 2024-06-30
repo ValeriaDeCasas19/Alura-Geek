@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": "70df",
+      "nombre": "GameBoy",
+      "precio": "$1500",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Gameboy-Advance-SP-Mk2.jpg/948px-Gameboy-Advance-SP-Mk2.jpg"
+    },
+    {
+      "id": "1331",
+      "nombre": "Nintendo 3ds",
+      "precio": "$2500",
+      "imagen": "https://m.media-amazon.com/images/S/aplus-media/vc/357b0d6a-351a-4187-8577-612f6337396a.jpg"
+    },
+    {
+      "id": "33bf",
+      "nombre": "XBOX 360",
+      "precio": "$769",
+      "imagen": "https://th.bing.com/th/id/OIP.UAEBhAqYclC6zIAsoxIdlwHaKM?rs=1&pid=ImgDetMain"
+    }
+  ]
+}

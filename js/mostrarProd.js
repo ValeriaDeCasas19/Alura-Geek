@@ -2,7 +2,7 @@ import { conectaAPI } from "./conectaAPI.js";
 
 const formulario = document.querySelector("[data-formulario]");
 
-// Function to handle product creation
+
 async function crearProd(evento) {
     evento.preventDefault();
     const nombre = document.querySelector("[data-nombre]").value;
@@ -11,12 +11,12 @@ async function crearProd(evento) {
 
     try {
         await conectaAPI.crearProducto(nombre, precio, imagen);
-        window.location.reload(); // Reload the page to show the new product
+        window.location.reload(); 
     } catch (error) {
         console.error('Error creating product:', error);
         alert('Error creating product. Please try again.');
     }
 }
 
-// Add event listener to the form
+
 formulario.addEventListener("submit", crearProd);
